@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルニュース</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">シンプルニュース</div>
+    </header>
+    <div class="wrapper">
+        <div class="news" id="news"></div>
+    </div>
+    <script>
+        const articles = document.getElementById('news');
+        fetch('/data')
+        .then(data => data.json())
+        .then(json => {
+            json.articles.forEach(function(article) {
+                const div = document.createElement('div');
+                div.classList.add('news__card');
+                div.innerHTML = 
+                    `<a href="${article.url}" class="news__content">
+                        <img src="${article.urlToImage}" alt="${article.title}">
+                        <h2>${article.title}</h2>
+                        <p>${article.description}</p>
+                    </a>`;
+                articles.appendChild(div);
+            });
+        });
+    </script>    
+</body>
+</html>
+
