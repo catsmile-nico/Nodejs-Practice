@@ -1,5 +1,16 @@
 # Nodejs-Practice
 
+## Environment
+WSL, VSCode installation - https://docs.microsoft.com/en-us/windows/wsl/install-win10, https://code.visualstudio.com/docs/remote/wsl, https://code.visualstudio.com/docs/remote/wsl-tutorial  
+Nodejs installation - https://www.geeksforgeeks.org/installation-of-node-js-on-linux/  
+Terminal installation - https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab  
+
+## Development
+1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
+2) Launch server - VSCode Terminal > "npm start" 
+3) Launch localhost - Browser > localhost:{portnumber}
+4) Edit code // type "rs" or save {main}.js to restart localhost // refresh to reload css  
+
 ## EjsNews
 <p float="left">
   <img src="EjsNews/sample_main.png" alt="sample image main" width="400" height="280">  
