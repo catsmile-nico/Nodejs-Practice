@@ -21,4 +21,4 @@ const newsRouter = require('./src/routes/news')
 app.use('/', newsRouter)
 
 // listen on port
-app.listen(port, () => console.log(`Listening on port ${port}`))
+app.listen(port, () => console.log(`listening on port ${port}`))
