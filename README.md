@@ -1,9 +1,16 @@
 # Nodejs-Practice
 
 ## Environment
-WSL, VSCode installation - https://docs.microsoft.com/en-us/windows/wsl/install-win10, https://code.visualstudio.com/docs/remote/wsl, https://code.visualstudio.com/docs/remote/wsl-tutorial  
-Nodejs installation - https://www.geeksforgeeks.org/installation-of-node-js-on-linux/  
-Terminal installation - https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab  
+WSL, VSCode installation
+ > https://docs.microsoft.com/en-us/windows/wsl/install-win10  
+ > https://code.visualstudio.com/docs/remote/wsl  
+ > https://code.visualstudio.com/docs/remote/wsl-tutorial  
+ 
+Nodejs installation 
+ > https://www.geeksforgeeks.org/installation-of-node-js-on-linux/  
+ 
+Terminal installation  
+> https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab  
 
 ## Development
 1) Launch development env - Launch Terminal > "wsl" > "cd {project directory}" > "code ."  
